@@ -1,0 +1,33 @@
+Exception has been thrown by the target of an invocation. -> Could not load type 'System.Runtime.Remoting.Messaging.ILogicalThreadAffinative' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.TypeLoadException: Could not load type 'System.Runtime.Remoting.Messaging.ILogicalThreadAffinative' from assembly 'mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089'.
+   at NUnit.Framework.TestContext.get_CurrentContext()
+   at AutomationFramework.Selenium.get__driverPath() in C:\Users\QA\automation-training\AutomationFramework\Selenium.cs:line 23
+   at AutomationFramework.Selenium.get_Driver() in C:\Users\QA\automation-training\AutomationFramework\Selenium.cs:line 15
+   at AutomationFramework.UiElements.LoginPage..ctor() in C:\Users\QA\automation-training\AutomationFramework\UiElements\LoginPage.cs:line 30
+   at SpecFlowLoginPage.Specs.Features.LoginPageStepsDefinitions..ctor() in C:\Users\QA\automation-training\SpecFlowLoginPage.Specs\Features\LoginPageStepsDefinitions.cs:line 13
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)
+   at BoDi.ObjectContainer.CreateObject(Type type, ResolutionList resolutionPath, RegistrationKey keyToResolve)
+   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()
+   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)
+   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)
+   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)
+   at TechTalk.SpecFlow.Infrastructure.TestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestObjectResolver.cs:line 11
+   at lambda_method(Closure , IContextManager , String )
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Bindings\BindingInvoker.cs:line 73
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 618
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance) in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 532
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep() in D:\a\1\s\TechTalk.SpecFlow\Infrastructure\TestExecutionEngine.cs:line 286
+   at TechTalk.SpecRun.SpecFlowPlugin.Runtime.RunnerTestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors() in D:\a\1\s\TechTalk.SpecFlow\TestRunner.cs:line 60
+   at SpecFlowLoginPage.Specs.Features.LoginPageFeature.ScenarioCleanup()
+   at SpecFlowLoginPage.Specs.Features.LoginPageFeature.EnterNameOfUserPasswordAndCaptcha() in C:\Users\QA\automation-training\SpecFlowLoginPage.Specs\Features\LoginPage.feature:line 10
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.ExecuteInternal(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TaskExecutors.StaticOrInstanceMethodExecutor.Execute(ITestThreadExecutionContext testThreadExecutionContext)
+   at TechTalk.SpecRun.Framework.TestNodeTask.Execute()

@@ -1,0 +1,221 @@
+﻿2021-11-20T16:58:59.3636074+02:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2021-11-20T16:58:59.3638027+02:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.7 in Framework netcore31 in x64 mode execution started
+2021-11-20T16:58:59.3638070+02:00;VSTestExecutionThread;Info;TestAdapter Location: D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-11-20T16:58:59.3655922+02:00;VSTestExecutionThread;Info;Current UserName: 'QA', MachineName: 'DESKTOP-D4IPDPU'
+2021-11-20T16:58:59.3997407+02:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowLoginPageSelenium.dll
+2021-11-20T16:58:59.3999374+02:00;VSTestExecutionThread;Info;Output folder configured to "D:\AQA_Demo\AutomationQA\BDD\AutomationFramework\TestResults" (default)
+2021-11-20T16:58:59.4000084+02:00;VSTestExecutionThread;Info;Profile: 
+2021-11-20T16:58:59.4360126+02:00;VSTestExecutionThread;Info;Log file path: D:\AQA_Demo\AutomationQA\BDD\AutomationFramework\TestResults\Unnamed project__2021-11-20T165859.log
+2021-11-20T16:58:59.4404125+02:00;Thread#12;Info;Checking activation
+2021-11-20T16:58:59.5130644+02:00;Thread#12;Info;Activated.
+2021-11-20T16:58:59.5132609+02:00;Thread#12;Info;Activation check completed
+2021-11-20T16:58:59.5133310+02:00;Thread#12;Info;Starting test run
+2021-11-20T16:58:59.5730890+02:00;Thread#11;Error;Запрошенное имя верно, но данные запрошенного типа не найдены.
+2021-11-20T16:58:59.5777877+02:00;Thread#12;Info;Discovering target: Default
+2021-11-20T16:58:59.5779343+02:00;Thread#12;Info;Discovering tests from assembly: D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowLoginPageSelenium.dll
+2021-11-20T16:58:59.5787561+02:00;Thread#11;Error;Запрошенное имя верно, но данные запрошенного типа не найдены.
+2021-11-20T16:58:59.6466431+02:00;Thread#12;Info;Discovered tests from assembly: D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowLoginPageSelenium.dll
+2021-11-20T16:58:59.6474903+02:00:Test Suite Dump
+2021-11-20T16:58:59.6486757+02:00:#0: Unnamed project/ - 
+2021-11-20T16:58:59.6486966+02:00:#1: Default - 
+2021-11-20T16:58:59.6486989+02:00:#2: SpecFlowLoginPageSelenium - 
+2021-11-20T16:58:59.6487008+02:00:#3: LoginPage - 
+2021-11-20T16:58:59.6495346+02:00:#4: Enter credentials - TestAssembly:SpecFlowLoginPageSelenium/Feature:LoginPage/Scenario:Enter+credentials
+2021-11-20T16:58:59.6495705+02:00:End: Test Suite Dump
+2021-11-20T16:58:59.6611315+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-11-20T16:58:59.6623840+02:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2021-11-20T16:58:59.6624210+02:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2021-11-20T16:58:59.6647875+02:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2021-11-20T16:58:59.6647973+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2021-11-20T16:58:59.6647997+02:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2021-11-20T16:58:59.6648021+02:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2021-11-20T16:58:59.6652944+02:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2021-11-20T16:58:59.6660261+02:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2021-11-20T16:58:59.6676934+02:00:Thread #0: creating new test thread executor for SpecFlowLoginPageSelenium, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2021-11-20T16:58:59.6695965+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-11-20T16:58:59.6697459+02:00:Thread #0: Creating test assembly executor for execution model OutProc
+2021-11-20T16:58:59.6714051+02:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2021-11-20T16:58:59.6727320+02:00:starting Out Of Process Executor
+2021-11-20T16:58:59.6740527+02:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-11-20T16:58:59.6761313+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2021-11-20T16:58:59.6761495+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2021-11-20T16:58:59.6770564+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:58:59.6773756+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-11-20T16:58:59.6774620+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2021-11-20T16:58:59.6774887+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:58:59.6776822+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-11-20T16:58:59.6781419+02:00:Tfm: netcoreapp3.1
+2021-11-20T16:58:59.6781507+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-11-20T16:58:59.6781528+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2021-11-20T16:58:59.6781986+02:00:[AssemblyCache] Found file 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2021-11-20T16:58:59.6785361+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2021-11-20T16:58:59.6790180+02:00:Starting callback TCP Rpc server
+2021-11-20T16:58:59.6939893+02:00:Asynchronously starting background TCP Rpc Server on port 32768
+2021-11-20T16:58:59.6940277+02:00:Started callback TCP Rpc server on port 32768
+2021-11-20T16:58:59.6940310+02:00:Starting logger TCP Rpc server
+2021-11-20T16:58:59.6961263+02:00:Asynchronously starting background TCP Rpc Server on port 32769
+2021-11-20T16:58:59.6961573+02:00:Started logger TCP Rpc server on port 32769
+2021-11-20T16:58:59.7563058+02:00:Executing test executor at 'dotnet' 'exec "D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 8488 --uniqueId "2021-11-20T165859" --outputFolder "D:\AQA_Demo\AutomationQA\BDD\AutomationFramework\TestResults" --callbackPort 32768 --loggerPort 32769' in 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:58:59.7627479+02:00:Executor with PID 14864 has been started successfully.
+2021-11-20T16:58:59.7659548+02:00:Out of Process Executor 14864 started
+2021-11-20T16:58:59.7659776+02:00:Waiting for endpoint
+2021-11-20T16:59:00.0303755+02:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+2021-11-20T16:59:00.0303938+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' from .deps.json file
+2021-11-20T16:59:00.0303971+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' from .deps.json
+2021-11-20T16:59:00.0304007+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:59:00.0304028+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2021-11-20T16:59:00.0304232+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2021-11-20T16:59:00.0304448+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:59:00.0304474+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-11-20T16:59:00.0304685+02:00:Tfm: netcoreapp3.1
+2021-11-20T16:59:00.0304713+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-11-20T16:59:00.0304729+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\StreamJsonRpc.resources.dll'
+2021-11-20T16:59:00.0304988+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\StreamJsonRpc.resources.exe'
+2021-11-20T16:59:00.0305223+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-11-20T16:59:00.0359238+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18'
+2021-11-20T16:59:00.0359438+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18\StreamJsonRpc.resources.dll'
+2021-11-20T16:59:00.0360194+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18\StreamJsonRpc.resources.exe'
+2021-11-20T16:59:00.0360666+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18'
+2021-11-20T16:59:00.0362833+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18'
+2021-11-20T16:59:00.0362914+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18\StreamJsonRpc.resources.dll'
+2021-11-20T16:59:00.0363582+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18\StreamJsonRpc.resources.exe'
+2021-11-20T16:59:00.0364029+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18'
+2021-11-20T16:59:00.0365423+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18'
+2021-11-20T16:59:00.0365495+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18\StreamJsonRpc.resources.dll'
+2021-11-20T16:59:00.0365956+02:00:[AssemblyCache] Trying to resolve 'StreamJsonRpc.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18\StreamJsonRpc.resources.exe'
+2021-11-20T16:59:00.0366337+02:00:[AssemblyCache] Could not resolve 'StreamJsonRpc.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18'
+2021-11-20T16:59:00.0376226+02:00:Assembly resolving StreamJsonRpc.resources, Version=1.4.0.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
+2021-11-20T16:59:00.0381682+02:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2021-11-20T16:59:00.0381784+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2021-11-20T16:59:00.0381813+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2021-11-20T16:59:00.0381897+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:59:00.0381916+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-11-20T16:59:00.0382107+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2021-11-20T16:59:00.0382272+02:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:59:00.0382301+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-11-20T16:59:00.0382422+02:00:Tfm: netcoreapp3.1
+2021-11-20T16:59:00.0382451+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-11-20T16:59:00.0382506+02:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2021-11-20T16:59:00.0382714+02:00:[AssemblyCache] Found file 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2021-11-20T16:59:00.0386699+02:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2021-11-20T16:59:00.2066277+02:00:Remote executor port received: 32770
+2021-11-20T16:59:00.2069930+02:00:Creating executor TCP client on port 32770
+2021-11-20T16:59:00.2073798+02:00:Created executor TCP client on port 32770
+2021-11-20T16:59:00.2073889+02:00:Connecting to remote executor TCP server
+2021-11-20T16:59:00.2083092+02:00:Connected remote executor TCP server
+2021-11-20T16:59:00.2084252+02:00:trying to connect to Out of Process Executor the 1 attempt
+2021-11-20T16:59:00.2084335+02:00:Connection to Out of Process Executor established in the 1 attempt
+2021-11-20T16:59:00.3320464+02:00:2021-11-20T16:59:00.3312203+02:00:OutOfProcessTestAssemblyExecutor: initialized for D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowLoginPageSelenium.dll on test thread #0
+2021-11-20T16:59:00.3351178+02:00:Endpoint 14864 started
+2021-11-20T16:59:00.3527474+02:00:2021-11-20T16:59:00.3524703+02:00:OutOfProcessTestAssemblyExecutor: running tests...
+2021-11-20T16:59:00.4492109+02:00:2021-11-20T16:59:00.4488869+02:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-11-20T16:59:00.4523477+02:00:2021-11-20T16:59:00.4520974+02:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2021-11-20T16:59:00.4546553+02:00:2021-11-20T16:59:00.4544314+02:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\QA\.nuget\packages\specflow\3.9.8\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2021-11-20T16:59:00.5411775+02:00:2021-11-20T16:59:00.5400178+02:00:Thread#0:T:-> Loading plugin D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowLoginPageSelenium.dll
+2021-11-20T16:59:00.5442881+02:00:2021-11-20T16:59:00.5429710+02:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-11-20T16:59:00.5469782+02:00:2021-11-20T16:59:00.5448668+02:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2021-11-20T16:59:00.5513739+02:00:2021-11-20T16:59:00.5477770+02:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\QA\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2021-11-20T16:59:00.5846703+02:00:2021-11-20T16:59:00.5838495+02:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2021-11-20T16:59:00.5851197+02:00:2021-11-20T16:59:00.5849557+02:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2021-11-20T16:59:00.5855880+02:00:2021-11-20T16:59:00.5854049+02:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\QA\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2021-11-20T16:59:00.5915258+02:00:2021-11-20T16:59:00.5912064+02:00:Thread#0:T:-> Missing [assembly:RuntimePlugin] attribute in SpecFlowLoginPageSelenium, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null. Please check https://go.specflow.org/doc-plugins for details.
+2021-11-20T16:59:00.5919181+02:00:2021-11-20T16:59:00.5917496+02:00:Thread#0:T:-> Loading plugin D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+2021-11-20T16:59:00.5935351+02:00:2021-11-20T16:59:00.5932808+02:00:Assembly resolving LivingDoc.Dtos, Version=3.9.0.0, Culture=neutral, PublicKeyToken=null
+2021-11-20T16:59:00.5938245+02:00:2021-11-20T16:59:00.5936789+02:00:[AssemblyCache] Trying to resolve 'LivingDoc.Dtos' from .deps.json file
+2021-11-20T16:59:00.5943095+02:00:2021-11-20T16:59:00.5941511+02:00:[AssemblyCache] Resolved 'LivingDoc.Dtos' to 'C:\Users\QA\.nuget\packages\specflow.plus.livingdocplugin\3.9.5\lib\netstandard2.0\LivingDoc.Dtos.dll'
+2021-11-20T16:59:00.5962692+02:00:2021-11-20T16:59:00.5959673+02:00:Thread#0:T:-> Loading plugin D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2021-11-20T16:59:00.6019293+02:00:2021-11-20T16:59:00.6016329+02:00:Thread#0:T:-> Using default config
+2021-11-20T16:59:00.6091051+02:00:2021-11-20T16:59:00.6087761+02:00:Assembly resolving Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c
+2021-11-20T16:59:00.6094162+02:00:2021-11-20T16:59:00.6092647+02:00:[AssemblyCache] Trying to resolve 'Cucumber.Messages' from .deps.json file
+2021-11-20T16:59:00.6098514+02:00:2021-11-20T16:59:00.6096951+02:00:[AssemblyCache] Resolved 'Cucumber.Messages' to 'C:\Users\QA\.nuget\packages\cucumber.messages\6.0.1\lib\netstandard2.0\Cucumber.Messages.dll'
+2021-11-20T16:59:00.6110090+02:00:2021-11-20T16:59:00.6107924+02:00:Assembly resolving Google.Protobuf, Version=3.7.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604
+2021-11-20T16:59:00.6112907+02:00:2021-11-20T16:59:00.6111463+02:00:[AssemblyCache] Trying to resolve 'Google.Protobuf' from .deps.json file
+2021-11-20T16:59:00.6116990+02:00:2021-11-20T16:59:00.6115414+02:00:[AssemblyCache] Resolved 'Google.Protobuf' to 'C:\Users\QA\.nuget\packages\google.protobuf\3.7.0\lib\netstandard1.0\Google.Protobuf.dll'
+2021-11-20T16:59:00.6455605+02:00:2021-11-20T16:59:00.6452358+02:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2021-11-20T16:59:00.6458932+02:00:2021-11-20T16:59:00.6457396+02:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2021-11-20T16:59:00.6463501+02:00:2021-11-20T16:59:00.6462064+02:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\QA\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2021-11-20T16:59:00.7038486+02:00:2021-11-20T16:59:00.7035506+02:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2021-11-20T16:59:00.7041709+02:00:2021-11-20T16:59:00.7040053+02:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2021-11-20T16:59:00.7045992+02:00:2021-11-20T16:59:00.7044431+02:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\QA\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2021-11-20T16:59:00.7108690+02:00:Thread#0: Test #4/0 is started on thread #0
+2021-11-20T16:59:00.7235863+02:00:2021-11-20T16:59:00.7232788+02:00:Thread#0:B:Given the login page opened
+2021-11-20T16:59:05.8085335+02:00:2021-11-20T16:59:05.8073399+02:00:Thread#0:T:done: LoginPageSteps.GivenTheLoginPageOpened() (5,1s)
+2021-11-20T16:59:05.8124832+02:00:2021-11-20T16:59:05.8111970+02:00:Thread#0:B:When type 'имя' to field username
+2021-11-20T16:59:05.8969648+02:00:2021-11-20T16:59:05.8962105+02:00:Thread#0:T:done: LoginPageSteps.WhenTypeToFieldUsername("имя") (0,1s)
+2021-11-20T16:59:05.8982341+02:00:2021-11-20T16:59:05.8976372+02:00:Thread#0:B:When type 'Пароль' to field password
+2021-11-20T16:59:05.9719590+02:00:2021-11-20T16:59:05.9712004+02:00:Thread#0:T:done: LoginPageSteps.WhenTypeToFieldPassword("Пароль") (0,1s)
+2021-11-20T16:59:05.9775245+02:00:2021-11-20T16:59:05.9724153+02:00:Thread#0:B:When type '0' to field captcha
+2021-11-20T16:59:06.0538398+02:00:2021-11-20T16:59:06.0531746+02:00:Thread#0:T:done: LoginPageSteps.WhenTypeToFieldCaptcha("0") (0,1s)
+2021-11-20T16:59:06.0547065+02:00:2021-11-20T16:59:06.0545041+02:00:Thread#0:B:When click to button 'Submit'
+2021-11-20T16:59:07.8259881+02:00:2021-11-20T16:59:07.8247748+02:00:Thread#0:T:done: LoginPageSteps.WhenClickToButton("Submit") (1,8s)
+2021-11-20T16:59:07.8362190+02:00:2021-11-20T16:59:07.8351731+02:00:Thread#0:B:Then the error message1 contain 'ВІдповідь, введена вами для Капчі - некоректна'
+2021-11-20T16:59:07.8387550+02:00:2021-11-20T16:59:07.8381643+02:00:Assembly resolving FluentAssertions, Version=5.10.3.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2021-11-20T16:59:07.8392663+02:00:2021-11-20T16:59:07.8390975+02:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2021-11-20T16:59:07.8398069+02:00:2021-11-20T16:59:07.8396520+02:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\QA\.nuget\packages\fluentassertions\5.10.3\lib\netcoreapp2.1\FluentAssertions.dll'
+2021-11-20T16:59:07.8669350+02:00:2021-11-20T16:59:07.8664662+02:00:Thread#0:T:done: LoginPageSteps.ThenTheErrorMessage1Contain("ВІдповідь, введен...") (0,0s)
+2021-11-20T16:59:07.8673777+02:00:2021-11-20T16:59:07.8672250+02:00:Thread#0:B:Then the error message2 contain 'Sorry, unrecognized username or password.'
+2021-11-20T16:59:07.8864707+02:00:2021-11-20T16:59:07.8862220+02:00:Thread#0:T:done: LoginPageSteps.ThenTheErrorMessage2Contain("Sorry, unrecogniz...") (0,0s)
+2021-11-20T16:59:07.8944503+02:00:Thread#0:Scheduler: get next test for thread 0
+2021-11-20T16:59:07.8944898+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-11-20T16:59:07.8944924+02:00:Thread#0:Scheduler: enumerator for thread is at end
+2021-11-20T16:59:07.8944955+02:00:Thread#0:Scheduler: No more tests for thread
+2021-11-20T16:59:07.9357359+02:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 7,2241412 seconds
+2021-11-20T16:59:07.9422175+02:00:2021-11-20T16:59:07.9420199+02:00:Got Deinitialize Signal
+2021-11-20T16:59:07.9449762+02:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2021-11-20T16:59:07.9456562+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-11-20T16:59:07.9473603+02:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2021-11-20T16:59:07.9487848+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=ru-RU, PublicKeyToken=b03f5f7f11d50a3a
+2021-11-20T16:59:07.9488065+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2021-11-20T16:59:07.9488110+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2021-11-20T16:59:07.9488155+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:59:07.9488187+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-11-20T16:59:07.9488407+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-11-20T16:59:07.9488553+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1'
+2021-11-20T16:59:07.9488605+02:00:TargetFramework: .NETCoreApp,Version=v3.1
+2021-11-20T16:59:07.9488993+02:00:Tfm: netcoreapp3.1
+2021-11-20T16:59:07.9489032+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-11-20T16:59:07.9489059+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2021-11-20T16:59:07.9489298+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2021-11-20T16:59:07.9489525+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'D:\AQA_Demo\AutomationQA\BDD\SpecFlowLoginPageSelenium\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2021-11-20T16:59:07.9494259+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18'
+2021-11-20T16:59:07.9494337+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18\System.Diagnostics.Process.resources.dll'
+2021-11-20T16:59:07.9494743+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18\System.Diagnostics.Process.resources.exe'
+2021-11-20T16:59:07.9495105+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.18'
+2021-11-20T16:59:07.9496135+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18'
+2021-11-20T16:59:07.9496187+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18\System.Diagnostics.Process.resources.dll'
+2021-11-20T16:59:07.9496573+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18\System.Diagnostics.Process.resources.exe'
+2021-11-20T16:59:07.9496907+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.18'
+2021-11-20T16:59:07.9497968+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18'
+2021-11-20T16:59:07.9498028+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18\System.Diagnostics.Process.resources.dll'
+2021-11-20T16:59:07.9498416+02:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18\System.Diagnostics.Process.resources.exe'
+2021-11-20T16:59:07.9498729+02:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.18'
+2021-11-20T16:59:07.9502714+02:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=ru, PublicKeyToken=b03f5f7f11d50a3a
+2021-11-20T16:59:07.9556348+02:00:Thread#-1:Scheduler: get next test for thread -1
+2021-11-20T16:59:07.9556630+02:00:Thread#:Scheduler: at the end of normal test queue
+2021-11-20T16:59:07.9556653+02:00:Thread#-1:Scheduler: enumerator for thread is at end
+2021-11-20T16:59:07.9567273+02:00;Thread#12;Info;test run finished
+2021-11-20T16:59:07.9568813+02:00;Thread#12;Info;publishing test results
+2021-11-20T16:59:07.9569740+02:00;Thread#12;Info;Not publishing results.
+2021-11-20T16:59:07.9570282+02:00;Thread#12;Info;test results published
+2021-11-20T16:59:07.9570770+02:00;Thread#12;Info;generating reports
+2021-11-20T16:59:08.0706059+02:00;Thread#12;Info;Starting external report generation process
+2021-11-20T16:59:09.6245978+02:00;Thread#12;Info;Successfully generated reports.
+2021-11-20T16:59:09.6268950+02:00;Thread#12;Info;Successfully generated reports
+2021-11-20T16:59:09.6338290+02:00:Total: 1
+2021-11-20T16:59:09.6353377+02:00:Succeeded: 1
+2021-11-20T16:59:09.6355596+02:00:Ignored: 0
+2021-11-20T16:59:09.6357473+02:00:Pending: 0
+2021-11-20T16:59:09.6357544+02:00:Skipped: 0
+2021-11-20T16:59:09.6359246+02:00:Failed: 0
+2021-11-20T16:59:09.6409802+02:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-11-20T16:59:09.6410515+02:00;VSTestExecutionThread;Info;adding Test Execution Report 'D:\AQA_Demo\AutomationQA\BDD\AutomationFramework\TestResults\Unnamed project__2021-11-20T165859.html'
+========== End of log file ==========
